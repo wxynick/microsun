@@ -3,4 +3,18 @@
   <groupId>org.microsun</groupId>
   <artifactId>microsun-parent</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+   <packaging>pom</packaging>
+   <name>Infinispan Common Parent</name>
+   <description>Mircro common parent POM module</description>
+   <url>http://www.infinispan.org</url>
+   <organization>
+      <name>Microsun, a personal work office</name>
+      <url>http://www.tech-dis.org</url>
+   </organization>
+   <developers>
+      <developer>
+         <name>Nick.Wang</name>
+         <email>wxywwwt@163.com</email>
+      </developer>
+   </developers>
 </project>
