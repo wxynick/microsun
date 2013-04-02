@@ -18,8 +18,8 @@
       </developer>
    </developers>
    <modules>
-   	<module>../microsun-core</module>
-   	<module>../microsun-logging</module>
-   	<module>../microsun-security</module>
+   	<module>microsun-core</module>
+   	<module>microsun-logging</module>
+   	<module>microsun-security</module>
    </modules>
 </project>
