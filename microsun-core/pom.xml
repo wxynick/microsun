@@ -1,15 +1,19 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>org.microsun</groupId>
+	<parent>
+		<relativePath>..\pom.xml</relativePath>
+		<groupId>org.microsun</groupId>
+		<version>0.0.1-SNAPSHOT</version>
+		<artifactId>microsun-parent</artifactId>
+	</parent>
 	<artifactId>microsun-core</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
-	<description>Microsun core code</description>
+	<description>Microsun Core Module</description>
 	<dependencies>
 		<dependency>
 			<groupId>org.microsun</groupId>
 			<artifactId>microsun-logging</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
+			<version>${project.version}</version>
 		</dependency>
 	</dependencies>
 </project>
